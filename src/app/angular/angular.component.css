@@ -1,0 +1,208 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
+
+.container-fluid{
+    
+    height:auto;
+    background:red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .container-fluid a button {
+      margin-top:10px;
+      background:red;
+      font-size:14px;
+      color:white;
+      text-decoration:underline;
+  }
+  .container-fluid a button:hover {
+    background:white;
+    color:black
+}
+  h1{
+      margin:0;
+      padding:0;
+      color:grey;
+      font-size:30px;
+      text-align: center;
+      margin-top:70px;
+  }
+ 
+  h1 span {
+      margin:10px;
+      padding:0;
+      text-align: center;
+      animation: animate 2s linear infinite;
+  }
+  h1 span:nth-child(1){
+      animation-delay: 0s;
+}
+
+h1 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+
+h1 span:nth-child(3){
+    animation-delay: 0.5s;
+}
+
+h1 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+
+h1 span:nth-child(5){
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+h1 span:nth-child(7){
+    animation-delay: 1.5s;
+}
+
+
+
+  @keyframes animate {
+      0%,100%
+      {
+          color:black;
+          filter: blur(2px);
+          text-shadow:0 0 10px #00b3ff,
+                     0 0 20px #00b3ff,
+                     0 0 40px #00b3ff,      
+                     0 0 80px #00b3ff,
+                     0 0 120px #00b3ff,
+                     0 0 200px #00b3ff,
+                     0 0 300px #00b3ff,
+                     0 0 400px #00b3ff,
+                    }
+      5%,95%
+      {
+        color:white;
+        filter: blur(0px);
+        text-shadow:none;
+    }
+  }
+  button {
+      float:right;
+      font-size:13px;
+      width:auto;
+  }
+  a{
+      font-size:100px;
+      width:100%;
+  }
+  .fa-angular{
+      color:grey;
+      width:100%;
+      line-height: 30px;
+      text-align: center;
+      transition:1s;
+  }
+  .fa-angular:hover {
+      color:white;
+      cursor: pointer;
+  }
+  .card {
+      border-radius:20px;
+      height:auto;
+      color:white;
+      margin-top:30px;
+      padding:20px;
+      margin-bottom:50px;
+      box-shadow:0px 0px 10px white;
+      transition:1s;
+      cursor:pointer;
+  }
+  .card:hover {
+    box-shadow:0px 0px 10px black;
+  }
+  .card-header{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color:lightblue;
+      font-size:20px;
+      padding:10px;
+      font-style:bold;
+      font-weight:600;
+      text-align: center;
+  }
+  .card-text{
+      margin-bottom:0;
+      text-align: center;
+  }
+  .card-body {
+      text-align: center;
+  }
+  .card-body ul {
+      padding:20px;
+      list-style-type: none;
+      text-align: center;
+  }
+  .card-body ul li {
+      color:white;
+      padding:5px;
+      font-size:15px;
+      font-style: italic;
+  }
+  
+ .footer-main-div{
+    width:100%;
+    height:100px;
+    margin:auto;
+    background:red;
+    padding:20px 0px;
+  }
+  .footer-social-icons {
+    width:100%;
+    height: auto;
+    margin:auto;
+  }
+  .footer-social-icons ul {
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    list-style-type:none;
+  }
+  .footer-social-icons ul li {
+    display: inline-block;
+    width:50px;
+    height:50px;
+    margin:0px 10px;
+    border-radius:100%;
+    cursor: pointer;
+  }
+  .footer-social-icons ul li a {
+    font-size:25px;
+  }
+  .footer-social-icons ul li a i {
+    line-height: 30px;
+    transition:1s;
+    color:black;
+  }
+  .footer-social-icons ul li a i:hover{
+     color:white;
+ }
+  .footer-social-icons p {
+    color:gray;
+    text-align: center;
+  }
+  .modal-content {
+    background:linear-gradient(to left,black,grey);
+    color:white;
+  }
+  .modal-body {
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+   font-size:16px;
+  }
+  .modal-footer button {
+    color:black;
+  }
+  .modal-footer button:hover {
+   color:grey;
+ }
+ .as:hover {
+   background-color:grey;
+ }
+ .container{
+   margin-top:20px;
+ }
