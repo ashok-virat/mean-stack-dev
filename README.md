@@ -1,6 +1,6 @@
 # Site Link
 
-http://mean-stack.surge.sh/home
+http://mean-stack.surge.sh
 
 # MeanstackDev
 
